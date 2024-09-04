@@ -6,7 +6,6 @@ This project is dedicated to visualizing financial data, particularly focusing o
   - [Directory Structure](#directory-structure)
   - [To-Do](#to-do)
   - [Setup](#setup)
-    - [Requirements](#requirements)
     - [Installation](#installation)
   - [Execution Instructions](#execution-instructions)
     - [Data Collection and Cleaning](#data-collection-and-cleaning)
@@ -48,18 +47,19 @@ After running the notebooks for the first time, you will also have the following
 
 ## Setup
 
-### Requirements
-
-- Python 3.x
-- Libraries: pandas, matplotlib (See [`requirements.txt`](requirements.txt) for a complete list)
-
 ### Installation
 
 1. Clone the repository to your local machine.
-2. Install the required Python packages:
+2. Choose the appropriate Python environment for the project.
 
    ```sh
-   pip install -r requirements.txt
+   pyenv local 3.11.9
+    ```
+
+3. Install the required packages:
+
+   ```sh
+   pipenv install
    ```
 
 ## Execution Instructions
